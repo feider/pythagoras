@@ -1,0 +1,3 @@
+[submodule "3rdparty/vecmath"]
+	path = 3rdparty/vecmath
+	url = https://github.com/feider/vecmath
