@@ -18,7 +18,7 @@ Have fun!
 
 
 ## run
-To run it on linux you need the SDL2_ttf library.
+To run it on linux you need the SDL2 and SDL2_ttf libraries.
 
 ## build
 To build on linux you need the SDL2 and SDL2_ttf library headers.
