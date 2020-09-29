@@ -1,6 +1,5 @@
 CC=gcc
-INCLUDES=`sdl-config --cflags`
-LIBS=./3rdparty/vecmath/vecmath/vecmath.c -lm `sdl-config --libs`
+LIBS=-lm -lSDL2 -lSDL2_ttf
 
-pythagoras: src/main.c
-	$(CC) src/main.c $(INCLUDES) $(LIBS) -o pythagoras
+pythagoras: src/pythagoras.c
+	$(CC) src/pythagoras.c $(LIBS) -o pythagoras
